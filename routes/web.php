@@ -141,3 +141,12 @@ Route::get('/tumbuhan', function (Request $request) {
 
     return view('tumbuhan', compact('letter', 'plant'));
 });
+
+/* =======================
+   TENTANG SIPPAUD
+======================= */
+Route::get('/tentang-sippaud', function () {
+    if (!session('admin')) return redirect('/');
+    return view('tentang_sippaud');
+});
+

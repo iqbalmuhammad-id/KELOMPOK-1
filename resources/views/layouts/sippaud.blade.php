@@ -27,7 +27,7 @@
         <a href="/dashboard" class="block px-4 py-3 hover:bg-green-100">Dashboard</a>
         <a href="/kelola-hewan" class="block px-4 py-3 hover:bg-green-100">Kelola Hewan</a>
         <a href="/kelola-tumbuhan" class="block px-4 py-3 hover:bg-green-100">Kelola Tumbuhan</a>
-        <div class="px-4 py-3 text-gray-500">Tentang SIPPAUD</div>
+        <a href="/tentang-sippaud" class="block px-4 py-3 hover:bg-green-100">Tentang SIPPAUD</a>
     </div>
 
     <!-- CONTENT -->
